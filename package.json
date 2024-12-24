@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/AlexaSemakin/alexsemakin#readme",
     "devDependencies": {
-        "http-server": "^14.1.1",
-        "yaspeller": "^9.0.0"
+        "yaspeller": "^10.0.1",
+        "http-server": "^14.1.1"
     }
 }
