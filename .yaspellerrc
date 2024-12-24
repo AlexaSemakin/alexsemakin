@@ -42,5 +42,9 @@
         "^[A-Z]$"
     ],
     "ignoreUrls": true,
-    "ignoreCapitalization": true
+    "ignoreCapitalization": true,
+    "checkYo": true,
+    "report": [
+        "console"
+    ]
 }
