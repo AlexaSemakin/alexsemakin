@@ -32,7 +32,9 @@
         "Latexted",
         "localstorage",
         "local storage",
-        "API"
+        "API",
+        "Metro",
+        "V"
     ],
     "ignoreText": [
         "\\s{2,}[А-Яа-я]+",
