@@ -1093,6 +1093,7 @@ blockquote {
 .game-item p {
     color: var(--text-light);
     line-height: 1.6;
+    margin-bottom: 16px;
 }
 
 .game-series {
