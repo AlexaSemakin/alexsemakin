@@ -1,0 +1,25 @@
+{
+	"name": "alexsemakin",
+	"version": "1.0.0",
+	"description": "Персональный веб-сайт, где я делюсь своим опытом в IT, обзорами игровых и киновселенных, мыслями о технологиях и стартапах.",
+	"main": "logic.js",
+	"scripts": {
+		"test": "yaspeller .",
+		"spell": "yaspeller articles/**/*.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AlexaSemakin/alexsemakin.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AlexaSemakin/alexsemakin/issues"
+	},
+	"homepage": "https://github.com/AlexaSemakin/alexsemakin#readme",
+	"devDependencies": {
+		"http-server": "^14.1.1",
+		"yaspeller": "^10.0.1"
+	}
+}

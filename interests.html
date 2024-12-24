@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Интересы - Александр Семакин</title>
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
-		<header>
-			<nav>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Интересы - Александр Семакин</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="resume.html">Резюме</a></li>
+				<li><a href="viarune.html">Viarune</a></li>
+				<li><a href="interests.html">Блог</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="blog-layout">
+		<!-- Боковая панель с категориями -->
+		<aside class="blog-sidebar">
+			<div class="categories">
+				<h2>Категории</h2>
 				<ul>
-					<li><a href="index.html">Главная</a></li>
-					<li><a href="resume.html">Резюме</a></li>
-					<li><a href="viarune.html">Viarune</a></li>
-					<li><a href="interests.html">Блог</a></li>
+					<li><a href="#all">Все статьи</a></li>
+					<li><a href="#games">Игры</a></li>
+					<li><a href="#movies">Кино</a></li>
+					<li><a href="#food">Еда</a></li>
+					<!-- <li><a href="#travel">Путешествия</a></li>-->
+					<!-- <li><a href="#thoughts">Размышления</a></li>-->
 				</ul>
-			</nav>
-		</header>
-
-		<main class="blog-layout">
-			<!-- Боковая панель с категориями -->
-			<aside class="blog-sidebar">
-				<div class="categories">
-					<h2>Категории</h2>
-					<ul>
-						<li><a href="#all">Все статьи</a></li>
-						<li><a href="#games">Игры</a></li>
-						<li><a href="#movies">Кино</a></li>
-						<!-- <li><a href="#travel">Путешествия</a></li> -->
-						<!-- <li><a href="#thoughts">Размышления</a></li> -->
-					</ul>
-				</div>
-			</aside>
-			<!-- Основной контент -->
-			<section class="blog-content" id="articleContainer">
-				<!-- Пагинация -->
-				<div class="pagination">
-					<a href="#" class="prev">Предыдущая</a>
-					<span class="current">1</span>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#" class="next">Следующая</a>
-				</div>
-			</section>
-		</main>
-
-		<footer>
-			<div class="footer-content">
-				<div class="footer-section">
-					<h4>Контакты</h4>
-					<p>Email: alexasemakin@gmail.com</p>
-					<p>Телефон: +7 (912) 013-39-97</p>
-				</div>
-
-				<div class="footer-section">
-					<h4>Личные соц. сети</h4>
-					<div class="social-links">
-						<a href="https://github.com/AlexaSemakin" target="_blank">GitHub</a>
-						<a href="https://t.me/AlexSemakin" target="_blank">Telegram</a>
-						<a href="https://vk.com/alexsemakin" target="_blank">VK</a>
-					</div>
-				</div>
-
-				<div class="footer-section">
-					<h4>Проект Viarune</h4>
-					<div class="social-links">
-						<a href="https://vk.com/viarune_studio" target="_blank">VK</a>
-						<a href="https://t.me/viarune_studio" target="_blank">Telegram</a>
-						<a href="https://habr.com/ru/users/Viarune" target="_blank">Hubr</a>
-					</div>
+			</div>
+		</aside>
+		<!-- Основной контент -->
+		<section class="blog-content" id="articleContainer">
+			<!-- Пагинация -->
+			<div class="pagination">
+				<a href="#" class="prev">Предыдущая</a>
+				<span class="current">1</span>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#" class="next">Следующая</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-content">
+			<div class="footer-section">
+				<h4>Контакты</h4>
+				<p>Email: alexasemakin@gmail.com</p>
+				<p>Телефон: +7 (912) 013-39-97</p>
+			</div>
+			<div class="footer-section">
+				<h4>Личные соцсети</h4>
+				<div class="social-links">
+					<a href="https://github.com/AlexaSemakin" target="_blank">GitHub</a>
+					<a href="https://t.me/AlexSemakin" target="_blank">Telegram</a>
+					<a href="https://vk.com/alexsemakin" target="_blank">VK</a>
 				</div>
 			</div>
-			<div class="footer-bottom">
-				<p>© 2024 Александр Семакин. Все права защищены.</p>
+			<div class="footer-section">
+				<h4>Проект Viarune</h4>
+				<div class="social-links">
+					<a href="https://vk.com/viarune_studio" target="_blank">VK</a>
+					<a href="https://t.me/viarune_studio" target="_blank">Telegram</a>
+					<a href="https://habr.com/ru/users/Viarune" target="_blank">Habr</a>
+				</div>
 			</div>
-		</footer>
-	</body>
-	<script src="js/blog.js"></script>
-	<script src="js/articles.js"></script>
+		</div>
+		<div class="footer-bottom">
+			<p>© 2024 Александр Семакин. Все права защищены.</p>
+		</div>
+	</footer>
+</body>
+<script src="js/blog.js"></script>
+<script src="js/articles.js"></script>
 </html>

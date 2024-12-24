@@ -16,12 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
 		const articlePaths = {
 			movies: ["articles/movies/0002.html", "articles/movies/0003.html"],
 			games: ["articles/games/0001.html"],
-			all: [
-				"articles/movies/0002.html",
-				"articles/movies/0003.html",
-				"articles/games/0001.html",
-			],
+			food: ["articles/food/0001.html"],
 		};
+
+		// Dynamically generate 'all' category
+		articlePaths.all = Object.values(articlePaths).flat();
 
 		const paths = articlePaths[category] || [];
 		const articles = [];

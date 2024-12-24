@@ -1,135 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Александр Семакин - Персональный сайт</title>
-		<link rel="stylesheet" href="css/style.css" />
-	</head>
-	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="index.html">Главная</a></li>
-					<li><a href="resume.html">Резюме</a></li>
-					<li><a href="viarune.html">Viarune</a></li>
-					<li><a href="interests.html">Блог</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<section class="hero">
-				<h1>Александр Семакин</h1>
-				<p>
-					Предприниматель, руководитель проектов, бизнес/системный аналитик,
-					разработчик ПО
-				</p>
-			</section>
-			<section class="about">
-				<div class="about-container">
-					<h2>О себе</h2>
-					<div class="about-content">
-						<div class="about-text">
-							<p>
-								Я предприниматель с 4-летним опытом управления IT-проектами и
-								компаниями. В роли генерального директора ООО "Латекстид"
-								руковожу разработкой инновационных решений в сфере электронной
-								коммерции, а также заказной e-com разработкой. Главной
-								занятостью является должность руководителя проектов ООО
-								"Иптимайзер", где мы создаем децинтрализованную систему сбора
-								данных об IT-продуктах, а также дальнейшую работу с ними как
-								НМА.
-							</p>
-							<p>
-								Мой путь в предпринимательстве начался в 2018 году. За это время
-								реализовал ряд успешных проектов:
-							</p>
-							<ul>
-								<li>
-									Разработка электронной картотеки сотрудников с различными
-									видами импорта и экспорта данных (В интересах АО "Чепецкий
-									механический завод")
-								</li>
-								<li>
-									Создание программы для информационного стедна с различными
-									видами данных (видео, презентации, 3D визуализации,
-									интерактивные брашуры)(В интересах ПАО "Газпром")
-								</li>
-								<li>
-									Создание системы мониторинга агро-комплексов для сбора и
-									аналитики данных (Заказчик: ООО "Инфотис")
-								</li>
-								<li>
-									Основал онлайн школу
-									<a href="http://viarune.study">viarune.study</a> для
-									школьников, один из учеников которой стал участником
-									всеросийской олимпиады школьников по информатике
-								</li>
-							</ul>
-							<p>
-								На этом сайте я веду технический блог, где делюсь своим опытом и
-								наблюдениями об этом мире. Основную часть интересных статей вы
-								можете найти в социальных сетях основанного мной IT-сообщества
-								<a href="/viarune.html">viarune</a> (ссылки в футоре и в
-								отдельной страце).
-							</p>
-							<p>
-								Образование получаю в Томском государственном университете на
-								факультете прикладной математики и информатики, специализируясь
-								в области компьютерной безопасности. Активно совмещаю
-								академическую деятельность с практическим применением знаний в
-								бизнесе.
-							</p>
-						</div>
-					</div>
-					<div class="about-content">
-						<div class="about-text">
-							<h2>Я не програмист! Наверное...</h2>
-							<p>
-								Я люблю писать код. Это то самое хобби, которое позволяет моему
-								внутреннему творцу выражать своё я. Так я создал 2 миниатюрные
-								игры:
-								<a href="http://maze.alexsemakin.ru">лабиринт</a> и
-								<a href="http://type.alexsemakin.ru"
-									>тренажер по скоропечатанию</a
-								>
-								Предупреждаю! Сохранений в 1 случае нет совсем! Во втором данные
-								хранятся в local storage!
-							</p>
-						</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Primary Meta Tags -->
+	<meta name="title" content="Александр Семакин - Персональный сайт" />
+	<meta name="description" content="Блог о играх, киновселенных и технологиях. " />
+	<meta name="keywords" content="Резюме, viarune, игры, кино, еда, обзоры" />
+	<meta name="author" content="Александр Семакин" />
+	<meta name="robots" content="index, follow" />
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://alexsemakin.ru/" />
+	<meta property="og:title" content="Александр Семакин - Персональный сайт" />
+	<meta property="og:description" content="Личный взгляд на прожитые события." />
+	<meta property="og:image" content="path-to-your-preview-image.jpg" />
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://alexsemakin.ru/" />
+	<meta property="twitter:title" content="Александр Семакин - Персональный сайт" />
+	<meta property="twitter:description" content="Личный взгляд на прожитые события." />
+	<meta property="twitter:image" content="path-to-your-preview-image.jpg" />
+	<title>Александр Семакин - Личный блог</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Главная</a>
+				</li>
+				<li>
+					<a href="resume.html">Резюме</a>
+				</li>
+				<li>
+					<a href="viarune.html">Viarune</a>
+				</li>
+				<li>
+					<a href="interests.html">Блог</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Александр Семакин</h1>
+			<p>Предприниматель, руководитель проектов, бизнес/системный аналитик, разработчик ПО</p>
+		</section>
+		<section class="about">
+			<div class="about-container">
+				<h2>О себе</h2>
+				<div class="about-content">
+					<div class="about-text">
+						<p>Я предприниматель с 4-летним опытом управления IT-проектами и компаниями. В роли генерального директора ООО "Латекстид" руковожу разработкой инновационных решений в сфере электронной коммерции, а также заказной e-com разработкой. Главной занятостью является должность руководителя проектов ООО "Иптимайзер", где мы создаем децентрализованную систему сбора данных об IT-продуктах, а также дальнейшую работу с ними как НМА.</p>
+						<p>Мой путь в предпринимательстве начался в 2018 году. За это время реализовал ряд успешных проектов:</p>
+						<ul>
+							<li>Разработка электронной картотеки сотрудников с различными видами импорта и экспорта данных (В интересах АО "Чепецкий механический завод")</li>
+							<li>Создание программы для информационного стенда с различными видами данных (видео, презентации, 3D визуализации, интерактивные брошюры)(В интересах ПАО "Газпром")</li>
+							<li>Создание системы мониторинга агрокомплексов для сбора и аналитики данных (Заказчик: ООО "Инфотис")</li>
+							<li>Основал онлайн школу<a href="http://viarune.study">viarune.study</a>для школьников, один из учеников которой стал участником всеросийской олимпиады школьников по информатике</li>
+						</ul>
+						<p>На этом сайте я веду технический блог, где делюсь своим опытом и наблюдениями об этом мире. Основную часть интересных статей вы можете найти в социальных сетях основанного мной IT-сообщества<a href="/viarune.html">viarune</a>(ссылки в футоре и в отдельной странице).</p>
+						<p>Образование получаю в Томском государственном университете на факультете прикладной математики и информатики, специализируясь в области компьютерной безопасности. Активно совмещаю академическую деятельность с практическим применением знаний в бизнесе.</p>
 					</div>
 				</div>
-			</section>
-		</main>
-		<footer>
-			<div class="footer-content">
-				<div class="footer-section">
-					<h4>Контакты</h4>
-					<p>Email: alexasemakin@gmail.com</p>
-					<p>Телефон: +7 (912) 013-39-97</p>
-				</div>
-
-				<div class="footer-section">
-					<h4>Личные соц. сети</h4>
-					<div class="social-links">
-						<a href="https://github.com/AlexaSemakin" target="_blank">GitHub</a>
-						<a href="https://t.me/AlexSemakin" target="_blank">Telegram</a>
-						<a href="https://vk.com/alexsemakin" target="_blank">VK</a>
-					</div>
-				</div>
-
-				<div class="footer-section">
-					<h4>Проект Viarune</h4>
-					<div class="social-links">
-						<a href="https://vk.com/viarune_studio" target="_blank">VK</a>
-						<a href="https://t.me/viarune_studio" target="_blank">Telegram</a>
-						<a href="https://habr.com/ru/users/Viarune" target="_blank">Hubr</a>
+				<div class="about-content">
+					<div class="about-text">
+						<h2>Я не программист! Наверное...</h2>
+						<p>Я люблю писать код. Это то самое хобби, которое позволяет моему внутреннему творцу выражать своё я. Так я создал 2 миниатюрные игры:<a href="http://maze.alexsemakin.ru">лабиринт</a>и<a href="http://type.alexsemakin.ru">тренажер по скоропечатанию</a>Предупреждаю! Сохранений в 1 случае нет совсем! Во втором данные хранятся в local storage!</p>
 					</div>
 				</div>
 			</div>
-			<div class="footer-bottom">
-				<p>© 2024 Александр Семакин. Все права защищены.</p>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-content">
+			<div class="footer-section">
+				<h4>Контакты</h4>
+				<p>Email: alexasemakin@gmail.com</p>
+				<p>Телефон: +7 (912) 013-39-97</p>
 			</div>
-		</footer>
-	</body>
+			<div class="footer-section">
+				<h4>Личные соцсети</h4>
+				<div class="social-links">
+					<a href="https://github.com/AlexaSemakin" target="_blank">GitHub</a>
+					<a href="https://t.me/AlexSemakin" target="_blank">Telegram</a>
+					<a href="https://vk.com/alexsemakin" target="_blank">VK</a>
+				</div>
+			</div>
+			<div class="footer-section">
+				<h4>Проект Viarune</h4>
+				<div class="social-links">
+					<a href="https://vk.com/viarune_studio" target="_blank">VK</a>
+					<a href="https://t.me/viarune_studio" target="_blank">Telegram</a>
+					<a href="https://habr.com/ru/users/Viarune" target="_blank">Habr</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>© 2024 Александр Семакин. Все права защищены.</p>
+		</div>
+	</footer>
+</body>
 </html>
