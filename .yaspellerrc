@@ -1,24 +1,46 @@
 {
-	"lang": "ru",
-	"format": "html",
-	"fileExtensions": [
-		".html"
-	],
-	"excludeFiles": [
-		"node_modules",
-		"dist"
-	],
-	"dictionary": [
-		"апельсиновый",
-		"Артёма",
-		"постапокалиптической",
-		"Цири",
-		"Куиил",
-		"Бобо",
-		"Фет",
-		"Амидале",
-		"Иптимайзер",
-		"Инфотис",
-		"Habr"
-	]
+    "format": "html",
+    "fileExtensions": [
+        ".html"
+    ],
+    "excludeFiles": [
+        "node_modules/**",
+        "dist/**"
+    ],
+    "dictionary": [
+        "апельсиновый",
+        "Артёма",
+        "постапокалиптической",
+        "Цири",
+        "Куиил",
+        "Бобо",
+        "Фет",
+        "Амидале",
+        "Иптимайзер",
+        "Инфотис",
+        "Habr",
+        "IoT",
+        "UseCase",
+        "UserStory",
+        "Jira",
+        "Linux",
+        "MacOS",
+        "децентрализованную",
+        "WF",
+        "WPF",
+        "C",
+        "Latexted",
+        "localstorage",
+        "local storage",
+        "API"
+    ],
+    "ignoreText": [
+        "\\s{2,}[А-Яа-я]+",
+        "\"[А-Яа-я]+\"",
+        "[А-Яа-я]+\\s*[А-Яа-я]+",
+        "\\d+[А-Яа-я]+",
+        "^[A-Z]$"
+    ],
+    "ignoreUrls": true,
+    "ignoreCapitalization": true
 }
